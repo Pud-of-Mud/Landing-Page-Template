@@ -29,5 +29,5 @@ This project is protected under the [GNU General Public License v3.0](https://gi
 For more information regarding the license, you can visit the [Free Software Foundation](https://fsf.org/). 
 
 ## Credits
-* Images provided by [-redactied](error)
+* Images provided by [-Missing-](error)
 * HTML/CSS/JS by @[Pud-of-Mud]()
