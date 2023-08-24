@@ -1,97 +1,125 @@
-body, html {
-  margin: 0px;
-  padding: 0px;
-  backgroud-color: black;
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
 }
 
-.TopNavigation {
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-  height: 25px;
-  background-color: black;
-}
-.TopNavigation a {
-  color: white;
-  background-color: grey;
-  padding: 5px;
-  margin: 0px;
-} 
-.TopNavigation a:hover {
-  color: black;
-  background-color: white;
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
 }
 
-.HeaddingDiv {
-  width: 100%;
-  height: 300px;
-  background-image: url("/src/images/Lake.png"); 
-  background-size: cover;
-  margin: 0px;
-  padding: auto;
-  align-items: center;
-} .HeaddingDiv div {
-  width: 230px;
-  height: 150px;
-  background-color: rgba(10, 10, 10, 50);
-  margin: auto;
-}
-.HeaddingDiv h1 {
-  font-size: 20px;
-  color: white;
-}
-.HeaddingDiv p {
-  font-size: 20px;
-  color: white;  
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
-.AboutAndTimelineDiv {
-  padding: 0px;
-  margin: 0px;
-  width: 100%;
-  height: 400px;
-  display: flex;
-  background-image: url("/src/images/Mountain.png");
-} .AboutAndTimelineDiv:nth-child(even) {
-  height: 400px;
-  width: 50%;
-  flex: 1;
-  padding: 20px;
-  margin: 0px;
-  background-color: rgba(0, 0, 50, 50));
-} .AboutAndTimeLineDiv:nth-child(odd) {
-  height: 400px;
-  width: 50%;
-  flex: 1;
-  margin: 0px;
-  padding: 20px;
-  background-color: rgba(50, 0, 0, 50);
-}
-.AboutAndTimelineDiv h2 {
-  color: white;
-}
-.AboutAndTimelineDiv p {
-  color: white;
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
 }
 
-footer {   
-  position: static;
-  padding-top: 50px;
-  padding-bottom: 5px;
-  margin: 0px, 0px, 0px, 0px; 
-  height: 75px;
-  width: 100%; 
-  frameborder: 0px;
-  border-weight: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relitive;
-  z-index: 100;
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(0,0,0,1));
-  color: white;  
-  text-align: center;  
-  font-family: roboto, Courier, monospace;
-  letter-spacing: -0.8px;
-  word-spacing: -0.6;
-}  
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+}
+
+/* About Section Styles */
+.about {
+    background-color: #fff;
+    color: #333;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Services Section Styles */
+.services {
+    background-color: #f2f2f2;
+    padding: 60px 0;
+}
+
+.service {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+.contact {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
