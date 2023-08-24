@@ -1,14 +1,102 @@
-@import url('http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900');
-
 /* Reset some default styles */
-body, h1, h2, h3, p {
+body, h1, h2, h3, p, a {
     margin: 0;
     padding: 0;
     font-family: "roboto", sans-serif;
+    color: white; 
+    font-weight: 200;
 }
 
 /* Global Styles */
 body {
     font-family: "roboto", sans-serif;
     background-color: #1f1f1f;
+}
+      
+.topnav {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+} .topnav a {
+    padding: 20px;
+    background-color: grey;
+}
+      
+.welcomeDiv {
+    width: 100%;
+    height: 60%;
+    background-color: grey;
+    padding-top: 10%;
+} .welcomeDivHello {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(70, 70, 70);
+    margin: auto;
+    padding: 20px;
+} .welcomeDivHello img {
+    width: 100%;
+    height: 100%;
+    align-self: right;
+} .welcomeDivHelloText  {
+    width: 50%;
+    float: left;
+} .welcomeDivHelloImage  {
+    width: 50%;
+    float: right;
+    background-color: white;
+} .welcomeDivHelloText p {
+    padding-left: 7px;
+    font-size: 22px;
+    padding-right: 5px;
+} .welcomeDivHelloText h1 {
+    font-size: 50px; 
+    padding-top: 2px;
+    padding-left: 5px;
+}
+        
+.bestworks {
+    width: 100%;
+    height: 70%;
+} .bestworksImage {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(36, 21, 52);
+    float: left;
+} .bestworksText {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(65, 23, 35);
+    float: right;
+} .bestworksText h1 {
+    font-size: 50px;
+    padding-top: 90px;
+    padding-left: 80px;
+} .bestworksText p {
+    font-size: 30px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-right: 80px;
+}
+.bestworks2 {
+    width: 100%;
+    height: 70%;
+} .bestworksImage2 {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(87, 65, 34);
+    float: right;
+} .bestworksText2 {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(34, 98, 56);
+    float: left;
+} .bestworksText2 h1 {
+    font-size: 50px;
+    padding-top: 90px;
+    padding-left: 80px;
+} .bestworksText2 p {
+    font-size: 30px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-right: 80px;
 }
