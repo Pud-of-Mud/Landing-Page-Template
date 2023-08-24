@@ -1,125 +1,14 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900');
+
 /* Reset some default styles */
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
+    font-family: "roboto", sans-serif;
 }
 
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-}
-
-.container {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-/* Header Styles */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.nav-links {
-    list-style: none;
-}
-
-.nav-links li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Hero Section Styles */
-.hero {
-    background-image: url('hero-image.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
-}
-
-.hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.cta-button {
-    display: inline-block;
-    background-color: #e74c3c;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-    background-color: #c0392b;
-}
-
-/* About Section Styles */
-.about {
-    background-color: #fff;
-    color: #333;
-    padding: 60px 0;
-    text-align: center;
-}
-
-.about h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-/* Services Section Styles */
-.services {
-    background-color: #f2f2f2;
-    padding: 60px 0;
-}
-
-.service {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.service h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-/* Contact Section Styles */
-.contact {
-    background-color: #333;
-    color: #fff;
-    padding: 60px 0;
-    text-align: center;
-}
-
-.contact h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-/* Footer Styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+    font-family: "roboto", sans-serif;
+    background-color: #1f1f1f;
 }
