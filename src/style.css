@@ -25,7 +25,7 @@ body {
 .welcomeDiv {
     width: 100%;
     height: 60%;
-    background-color: grey;
+    background-color: rgb(30,30,30);
     padding-top: 10%;
 } .welcomeDivHello {
     width: 50%;
@@ -99,4 +99,46 @@ body {
     padding-left: 80px;
     padding-top: 30px;
     padding-right: 80px;
+}
+.timeline {
+    width: 100%;
+    height: 60%;
+    background-color: rgb(40, 40, 40);
+    padding-top: 50px;
+} .timelineContainer {
+    width: 70%;
+    height: 80%;
+    margin: auto;
+} .timelineContainer img {
+    width: 100%;
+    height: 60%;
+    background-color: white;
+} .timelineContainer h1 {
+    padding-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    padding-top: 50px;
+} #footerContainer {
+    height: 40%;
+    width: 55%;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    padding-top: 1%;
+} #footerContainer a {
+    font-size: 20px;
+} #footerContainer img {
+    width: 64px;
+    height: 64px;
+    padding-top: 10px; 
+} #footerContainer span {
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
